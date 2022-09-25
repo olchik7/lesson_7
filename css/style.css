@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato";
+}
+
+[class*="__container"]{
+	max-width: 807px;
+	margin: 0 auto ;
+}
+
+h1 {
+	font-weight: 900;
+	margin-top: 85px;
+	font-size: 46px;
+}
+
+img {
+	margin-top: 50px;
+	border-radius: 4px;
+	max-width: 100%;
+}
+
+p.text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin-top: 70px;
+}
+
+p.text__p__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	margin-top: 37px;
+}
+
+.quote {
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 62px;
+	padding-left:58px;
+	line-height: 30px;
+}
+
+.text__list {
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 40px;
+	line-height: 160%;
+}
+.list {
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+	margin-top: 35px;
+	padding-left: 30px;
+}
+
+.finish {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	margin-bottom: 50px;
+	margin-top: 66px;
+}
+
+.background {
+	background-color: rgb(22, 176, 174);;
+}
+
+.gradient {
+	margin-top: 30px;
+	background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.footer {
+	background: -moz-linear-gradient(left, #2a68d3 0%, #28b3d6 22%, #28cbd3 45%, #20ccb2 63%, #21d392 80%, #79e0a0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #2a68d3 0%,#28b3d6 22%,#28cbd3 45%,#20ccb2 63%,#21d392 80%,#79e0a0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #2a68d3 0%,#28b3d6 22%,#28cbd3 45%,#20ccb2 63%,#21d392 80%,#79e0a0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/
+} 
+.footer_container{
+	padding: 20px;
+}
+.block_one {
+	height: 370px;
+	width: 700px;
+	border-radius: 20px;
+	background: url("../img/img1.jpg");
+	padding: 20px;
+}
+.text_one{
+	margin-top: 250px;
+	color: beige;
+}
+.block_two{
+	margin: 0 auto;
+	background: url("../img/img2.jpg") 0 0 / cover;
+	height: 400px;
+	width: 700px;
+	border-radius: 15px;
+	padding: 8px;
+	margin-top: 50px;
+}
+.block_three{
+	border-radius: 25px;
+	background: url("../img/img3.jpg") center fixed;
+	height: 300px;
+	width: 100%;
+	margin-top: 30px;
+	padding: 30px;
+	box-shadow: 0 0 10px rgb(200, 218, 237);
+}
+.text_three {
+	color: rgb(228, 224, 224);
+}
+.block_four {
+	margin: 0 auto;
+	background: url("../img/img4.jpg") center repeat-y,rgba(197, 129, 214, 0.742);
+	margin-top: 50px;
+	height: 600px;
+	width: 1100px;
+	border-radius: 15px;
+
+}
+
